@@ -1,0 +1,19 @@
+body{
+    background-color:#5ca0d7
+}
+
+.bold{
+    text-decoration: bold;
+}
+
+header {
+    color:white
+}
+
+blockquote{
+    color:white
+}
+
+* {
+    text-align: center;
+}
