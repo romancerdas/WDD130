@@ -1,0 +1,35 @@
+.nav-container, footer{
+    background-color: hsl(210, 29%, 24%);
+    color: white;
+    justify-items: center;
+}
+.nav{
+    display:flex;
+    flex-direction: column;
+}
+body{
+    background-color: lightgray;
+}
+.card{
+    justify-items: center;
+    background-color: #f0f0f0;
+    height: 1fr;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card, h2{
+    font-weight: bold;
+}
+
+.card, p{
+    font-weight: 100;
+}
+.card-container{
+    display: block;
+}
+
+img{
+    height: 100px;
+    padding: 10px;
+}
