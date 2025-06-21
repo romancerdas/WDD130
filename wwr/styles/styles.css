@@ -76,7 +76,7 @@ nav a:hover {
     /* grid-auto-rows: minmax(100px, auto); */
 }
 .home-title {
-    color: brown;
+    color: whitesmoke;
     font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
@@ -273,5 +273,47 @@ section h2, section h4, p, a {
     footer {
         margin-top: 25px;
     }
+
+     .faq-content {
+        justify-content: center;
+    }
+
+    .question {
+        width: 100%;
+    }
+
 }
-            
+        
+/* Subpage CSS */
+
+.faq-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0 0 0; 
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.question {
+  width: 700px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: brown;
+  align-self: flex-start; 
+}
+
+
+#big-one {
+  width: 1400px;
+  order: 1;
+}
+
+.question h3{
+    color: whitesmoke;
+}
+.question p{
+    color: #ffffffea;
+    font-style: italic;
+}
