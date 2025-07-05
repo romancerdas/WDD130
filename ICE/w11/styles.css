@@ -1,0 +1,32 @@
+div:nth-child(2n){
+    justify-self: center;
+}
+
+div:first-child{
+    justify-self: left;
+}
+
+div:nth-child(3){
+    justify-self: right;
+}
+
+body{
+    display: block;
+}
+
+.boxed-section{
+    border: 1px solid black;
+    width: 800px;
+}
+
+.boxed-section p:first-child{
+    text-align: left;
+}
+
+.boxed-section p:nth-of-type(2){
+    text-align: middle;
+}
+
+.boxed-section p:last-child{
+    justify-self: right;
+}
