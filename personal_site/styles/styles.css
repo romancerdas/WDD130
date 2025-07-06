@@ -1,0 +1,160 @@
+body{
+    background-color: whitesmoke;
+    margin:0 50px 0 50px;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #F7E7CE;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    height:100%;
+}
+
+nav a {
+    color: #6B3F29;
+    text-decoration: none;
+    padding: 50px;
+    font-size: 175%;
+}
+
+nav a:hover{
+    color:white;
+    background-color: #a86340;
+}
+
+.hero1{
+    background-color:#254734;
+    color: whitesmoke;
+    display: grid;
+    grid-template-rows: 100px 100px auto;
+    justify-items: center;
+    padding: 0px 400px 0px 400px;
+}
+
+.hero1 h2{
+    font-size: 350%;
+    grid-row: 1/2;
+}
+
+.hero1 p{
+    font-size: 120%;
+    padding: 20px 0 20px 0;
+    text-justify: auto 0;
+    grid-row: 2/3;
+}
+
+.buttons{
+    grid-row:3/4;
+    display:flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 0 0 30px 0;
+}
+
+.buttons a{
+    margin-top:25px;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
+}
+
+.hero2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #254734;
+    padding: 100px 0 100px 0;
+    border-radius: 20px;
+    margin: 50px;
+    color: whitesmoke;
+}
+
+.hero2 img{
+    max-width: 1/2fr;
+    grid-column: 1/2;
+    justify-self: center;
+}
+
+.hero2 h2{
+    font-size: 350%;
+}
+
+.hero2 .text-sub{
+    max-width: 1/2fr;
+    grid-column: 2/3;
+    font-size: 120%;
+}
+
+.footer {
+  background-color: #F7E7CE;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  border-top: black solid 3px;
+}
+
+.footer p{
+    grid-column: 2/3;
+    justify-self: center;
+    order: 1;
+}
+
+.footer .logo{
+    max-width: 200px;
+    grid-column: 1/2;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+.center-links {
+  grid-column: 2/3;
+  justify-self: center;
+  display: flex;
+  font-size: 115%;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.center-links a{
+    text-decoration: none;
+    font-size: 140%;
+    color:black
+}
+
+.socials {
+  grid-column: 3/4;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  padding-top:50px;
+} 
+
+.socials a img{
+    width: 100px;
+}
+
+.text-block{
+    margin:60px;
+}
+
+.text-block p{
+    font-size: 150%;
+    color: #254734;
+}
