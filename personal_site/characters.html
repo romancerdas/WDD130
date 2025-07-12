@@ -3,21 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dr. Doom's Encyclopedia : Characters</title>
+  <link href="styles/styles.css" rel="stylesheet">
+  <title>Dr. Doom's Encyclopedia</title>
 </head>
 <body>
   <header>
     <a id="logo-link" href="index.html">
-      <img class="logo" src="images/dr_dooms_encyclopedia.png" alt="website logo" />
+      <img class="logo" src="images/dr_dooms_encyclopedia.png" alt="Dr. Doom's Encyclopedia logo" />
     </a>
     <nav>
-        <a href="index.html" target="_blank">Home</a>
-        <a href="characters.html" target="_blank">Characters</a>
-        <a href="metas.html" target="_blank">Gameplay Metas</a>
-        <a href="site-plan.html" target="_blank">Site Plan</a>
+      <a href="index.html" target="_blank">Home</a>
+      <a href="characters.html" target="_blank">Characters</a>
+      <a href="metas.html" target="_blank">Gameplay Metas</a>
+      <a href="site-plan.html" target="_blank">Site Plan</a>
     </nav>
   </header>
-
+  <div class="title">
+    <h2>Characters and Roles</h2>
+  </div>
   <main>
     <div class="card">
         <div class="text-sub">
@@ -25,14 +28,15 @@
             <p>Tanks are durable frontline heroes who absorb massive amounts of damage, create space for their team, and disrupt enemy positions. 
             They excel at controlling chokepoints, blocking attacks, and leading pushes to secure objectives. A good tank anchors the team and turns the tide of battle by protecting weaker allies.</p>
         </div>
-
-      <div class="portrait-sub">
-        <img src="images/Captain_America_Hero_Portrait.png" alt="Captain America hero portrait" />
-        <p>Captain America uses his shield to defend allies and lead the charge.</p>
-      </div>
-      <div class="portrait-sub">
-        <img src="images/Doctor_Strange_Hero_Portrait.png" alt="Doctor Strange hero portrait" />
-        <p>Doctor Strange bends reality to shield his team from harm.</p>
+      <div class="portrait-container">
+        <div class="portrait-sub">
+          <img src="images/Captain_America_Hero_Portrait.png" alt="Captain America hero portrait" />
+          <p>Captain America uses his shield to defend allies and lead the charge.</p>
+        </div>
+        <div class="portrait-sub">
+          <img src="images/Doctor_Strange_Hero_Portrait.png" alt="Doctor Strange hero portrait" />
+          <p>Doctor Strange bends reality to shield his team from harm.</p>
+        </div>
       </div>
     </div>
 
@@ -43,14 +47,15 @@
             They often stay behind the frontlines, positioning carefully to avoid being targeted while providing healing bursts and buffs that can swing battles in their team’s favor. 
             Skilled healers prioritize targets, manage cooldowns, and help maintain team cohesion.</p>
         </div>
-
-      <div class="portrait-sub">
-        <img src="images/Cloak_Dagger_Hero_Portrait.png" alt="Cloak and Dagger hero portrait" />
-        <p>Cloak and Dagger combine light and darkness to heal and protect allies.</p>
-      </div>
-      <div class="portrait-sub">
-        <img src="images/Jeff_the_Land_Shark_Hero_Portrait.png" alt="Jeff the Land Shark hero portrait" />
-        <p>Jeff the Land Shark boosts morale and provides surprising support on the battlefield.</p>
+      <div class="portrait-container">
+        <div class="portrait-sub">
+          <img src="images/Cloak_Dagger_Hero_Portrait.png" alt="Cloak and Dagger hero portrait" />
+          <p>Cloak and Dagger combine light and darkness to heal and protect allies.</p>
+        </div>
+        <div class="portrait-sub">
+          <img src="images/Jeff_the_Land_Shark_Hero_Portrait.png" alt="Jeff the Land Shark hero portrait" />
+          <p>Jeff the Land Shark boosts morale and provides surprising support on the battlefield.</p>
+        </div>
       </div>
     </div>
 
@@ -61,34 +66,36 @@
             They often rely on positioning, flanking, and burst damage to gain the upper hand. 
             DPS players are responsible for securing eliminations, breaking enemy lines, and pressuring opponents to create openings for their team.</p>
         </div>
-      <div class="portrait-sub">
-        <img src="images/Hawkeye_Hero_Portrait.png" alt="Hawkeye hero portrait" />
-        <p>Hawkeye picks off enemies from afar with unmatched precision.</p>
-      </div>
-      <div class="portrait-sub">
-        <img src="images/Squirrel_Girl_Hero_Portrait.png" alt="Squirrel Girl hero portrait" />
-        <p>Squirrel Girl overwhelms foes with her unbeatable squirrel army.</p>
+      <div class="portrait-container">
+        <div class="portrait-sub">
+          <img src="images/Hawkeye_Hero_Portrait.png" alt="Hawkeye hero portrait" />
+          <p>Hawkeye picks off enemies from afar with unmatched precision.</p>
+        </div>
+        <div class="portrait-sub">
+          <img src="images/Squirrel_Girl_Hero_Portrait.png" alt="Squirrel Girl hero portrait" />
+          <p>Squirrel Girl overwhelms foes with her unbeatable squirrel army.</p>
+        </div>
       </div>
     </div>
   </main>
 
   <footer class="footer">
-    <img src="images/dr_dooms_encyclopedia.png" alt="footer logo" />
-    <p>Dr. Doom's Encyclopedia &copy; 2025 - Roman Cerdas</p>
+    <img class="logo" src="images/dr_dooms_encyclopedia.png" alt="Dr. Doom's Encyclopedia footer logo" />
     <div class="center-links">
-      <a href="#">Button</a>
-      <a href="#">Button</a>
-      <a href="#">Button</a>
-      <a href="#">Button</a>
+      <a href="index.html">Home</a>
+      <a href="characters.html">Characters</a>
+      <a href="metas.html">Gameplay Metas</a>
+      <a href="site-plan.html">Site Plan</a>
     </div>
+    <p>Dr. Doom's Encyclopedia &copy; 2025 - Roman Cerdas</p>
     <div class="socials">
-      <a id="instagram" href="#">
+      <a id="instagram" href="https://www.instagram.com/" target="_blank">
         <img src="images/instagram.png" alt="Instagram icon" />
       </a>
-      <a id="facebook" href="#">
+      <a id="facebook" href="https://www.facebook.com/" target="_blank">
         <img src="images/facebook.png" alt="Facebook icon" />
       </a>
-      <a id="twitter" href="#">
+      <a id="twitter" href="https://www.twitter.com/" target="_blank">
         <img src="images/twitter.png" alt="Twitter icon" />
       </a>
     </div>

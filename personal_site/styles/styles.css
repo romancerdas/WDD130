@@ -1,3 +1,7 @@
+:root{
+    font-size: 16px;
+}
+
 body{
     background-color: whitesmoke;
     margin:0 50px 0 50px;
@@ -157,4 +161,50 @@ nav a:hover{
 .text-block p{
     font-size: 150%;
     color: #254734;
+}
+
+.title{
+    font-size:3em;
+    text-align: center;
+}
+.card{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 5px solid black;
+    margin-bottom: 50px;
+}
+
+.card .text-sub{
+    padding: 50px;
+    grid-column: 1/2;
+}
+
+.card .portrait-container{
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    text-align: center;
+    padding: 100px;
+}
+
+.portrait-container p{
+    padding:10px;
+}
+.portrait-sub img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;    
+  border: 2px solid #000; 
+}
+
+.text-sub h1{
+    font-size: 350%;
+}
+
+.text-sub p{
+    text-align: justify;
+    font-size: 1.25em;
 }
