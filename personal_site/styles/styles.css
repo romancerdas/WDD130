@@ -175,7 +175,7 @@ nav a:hover{
 }
 
 .card .text-sub{
-    padding: 50px;
+    padding: 75px;
     grid-column: 1/2;
 }
 
@@ -184,7 +184,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     text-align: center;
-    padding: 100px;
+    padding: 75px;
 }
 
 .portrait-container p{
