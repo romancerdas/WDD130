@@ -69,7 +69,7 @@ nav a:hover {
   display: flex;
   gap: 100px;
   justify-content: center;
-  padding-bottom: 30px;
+  padding: 30px 0  30px;
 }
 
 .buttons a {
@@ -114,6 +114,7 @@ nav a:hover {
   grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
   border-top: 3px solid black;
+
 }
 
 .footer p {
@@ -205,6 +206,11 @@ nav a:hover {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #000;
+  padding:10px;
+}
+
+#cloak{
+  object-fit: contain;
 }
 
 .text-sub h1 {
@@ -255,8 +261,9 @@ nav a:hover {
 }
 
 .image-diamond img {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
+  max-height: 200px;
+
   object-fit: cover;
   justify-self: center;
   border-radius: 50%;
@@ -308,4 +315,156 @@ nav a:hover {
 
 .basic-card img {
   grid-column: 1;
+  justify-self:center;
+  margin: auto 0;
+  
+}
+
+
+.text-card{
+  border: 5px solid black;
+  text-align: center;
+  padding: 75px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  body {
+    margin: 0 20px;
+    font-size: 18px;
+  }
+
+  nav a {
+    padding: 20px;
+    font-size: 22px;
+  }
+
+  .hero1 {
+    padding: 0 100px;
+  }
+
+  .hero1 h2 {
+    font-size: 30px;
+  }
+
+  .hero1 p {
+    font-size: 18px;
+  }
+
+  .buttons {
+    gap: 40px;
+  }
+
+  .buttons a {
+    font-size: 18px;
+  }
+
+  .hero2 {
+    grid-template-columns: 1fr;
+    padding: 50px 20px;
+  }
+
+  .hero2 img {
+    grid-column: 1/2;
+    width: 100%;
+  }
+
+  .hero2 .text-sub {
+    grid-column: 1/2;
+    padding: 20px;
+  }
+
+  .image-diamond {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 75px;
+  }
+
+  .image-diamond img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .image-diamond p {
+    grid-row: 4;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .card .text-sub,
+  .card .portrait-container {
+    grid-column: 1/2;
+    padding: 40px;
+  }
+
+  .complex-card {
+    grid-template-columns: 1fr;
+  }
+
+  .complex-card .text-sub {
+    padding: 40px;
+    grid-column: 1;
+  }
+
+  .basic-card {
+    grid-template-columns: 1fr;
+  }
+
+  .basic-card .text-sub {
+    grid-column: 1;
+    padding: 40px;
+  }
+
+  .title-hero h1 {
+    font-size: 48px;
+    padding-left: 20px;
+  }
+
+  .portrait-sub img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer .logo,
+  .center-links {
+    grid-column: 1;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .socials{
+    grid-column: 2;
+  }
+
+  .footer p{
+    padding: 10px;
+  }
+
+  .center-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .socials {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .socials a img {
+    width: 60px;
+  }
 }
